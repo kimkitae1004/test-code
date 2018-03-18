@@ -33,7 +33,12 @@ git config --global user.email email@example.com
 28. git의 작업내용을 기록하고 관리 대상자를 확정 -> git commit -m '커밋할 메시지'
 29. 원격 저장소 지정 -> git remote add origin 해당git의repository주소
 30. 원격 저장소에 업로드 -> git push -u origin master
+31. 해당하는 아이디나 이메일, 패스워드를 물어볼 경우 제대로 입력해야 업로드가 성공한다.
 
+32. git으로 원격저장소의 내용을 로컬컴퓨터에 복제하기 -> git clone 레포시토리주소
+33. git 대상자 추가 및 메시지기록 -> git -a -m '커밋메시지'
+34. 원격 저장소에 내용을 로컬컴퓨터에 가져오기 -> git pull 레포시토리주소
+35. 로컬컴퓨터의 내용을 원격 저장소에 넣기 -> git push 레포시토리주소
 
 
 
